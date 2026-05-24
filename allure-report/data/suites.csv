@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","11756","User Login with E2E Scenario for ADIDAS ORIGINAL","","2026-05-14","passed","2026-05-14","","LoginWithE2EPageObject.spec.js","",""
+"","13444","User Login with E2E Scenario for ZARA COAT 3","","2026-05-14","passed","2026-05-14","","LoginWithE2EPageObject.spec.js","",""
+"","8284","User Login with E2E Scenario","","2026-05-15","passed","2026-05-15","","LoginWithE2EAdvancedLocator.spec.js","",""

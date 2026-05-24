@@ -1,0 +1,24 @@
+{
+  "name": "playwrightautomationpoc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "Regression": "npx playwright test --grep \"@Regression\"",
+    "smokeTest": "npx playwright test --grep \"@Smoke\"",
+    "API": "npx playwright test --grep \"@API\"",
+    "safariNewConfig": "npx playwright test --config playwright1.config.js --project=safari",
+    "cucumber": "npx cucumber-js --exit --require features/**/*.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.3.0",
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^25.7.0",
+    "allure-playwright": "^3.8.0",
+    "typescript": "^6.0.3"
+  }
+}
