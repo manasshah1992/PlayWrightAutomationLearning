@@ -2,7 +2,7 @@ const {test, expect} = require('@playwright/test');
 const {LoginPage} = require('../PageObjects/LoginPage');
 const {DashBoardPage} = require('../PageObjects/DashBoardPage');
 const {CartPage} = require('../PageObjects/CartPage');
-const {CheckoutPage} = require('../PageObjects/CheckoutPage');
+const {CheckoutPage} = require('../PageObjects/CheckOutPage');
 const {OrderHistoryAndDetailPage} = require('../PageObjects/OrderHistoryAndDetailPage');
 
 const dataset = JSON.parse(JSON.stringify(require('../utils/TestData.json')));
